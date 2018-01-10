@@ -2,7 +2,7 @@
 Universal Atmel Unbricker 
 
 Inspiracja:<br>
-Zdarza się, że podczas zabawy Arduino (i nie tylko) uszkodzeniu ulega bootloader. Pierwotnym przypadkiem który natchnął mnie do budowy urządzenia to dość często spotykany problem przy wgrywaniu oprogramowania do drukarki Anet A6/A8. Większość użytkowników nie ma pod ręką programatora typu USBasp, a samo wgranie bootloadera to dla nich czarna magia. 
+Zdarza się, że podczas zabawy Arduino (i nie tylko) uszkodzeniu ulega bootloader. Pierwotnym przypadkiem który natchnął mnie do budowy urządzenia to dość często spotykany problem przy wgrywaniu oprogramowania do drukarki Anet A6/A8. Większość użytkowników nie ma pod ręką programatora typu USBasp, a samo wgranie bootloadera to dla nich czarna magia. Myślę, że urządzenie sprawdzi się również u tych bardziej doświadczonych poprzez przyspieszenie i uproszczenie samego procesu odceglania :)
 
 Koncepcja:<br>
 Przygotowanie uniwersalnego "unbrickera" w formie wtyczki która po podłączeniu automatycznie wgra bootloader. Ponieważ bootloadery dla mikrokontrolerów różnią się między sobą, trzeba wykryć typ układu lub rozważyć dołożenie zworek / DIP switcha umożliwiającego wybór "ratowanego" układu (szykowanie urządzenia dla jednego typu to marnotrawienie możliwości). Dodanie paru LED sygnalizujących przebieg operacji wydaje się potrzebne, a w przyszłości można pokusić się o przygotowanie wersji z małym wyświetlaczem OLED i joystickiem.
