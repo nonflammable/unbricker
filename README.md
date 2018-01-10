@@ -1,5 +1,4 @@
-# unbricker
-Universal Atmel Unbricker 
+# Universal Atmel Unbricker 
 
 Inspiracja:<br>
 Zdarza się, że podczas zabawy Arduino (i nie tylko) uszkodzeniu ulega bootloader. Pierwotnym przypadkiem który natchnął mnie do budowy urządzenia to dość często spotykany problem przy wgrywaniu oprogramowania do drukarki Anet A6/A8. Większość użytkowników nie ma pod ręką programatora typu USBasp, a samo wgranie bootloadera to dla nich czarna magia. Myślę, że urządzenie sprawdzi się również u tych bardziej doświadczonych poprzez przyspieszenie i uproszczenie samego procesu odceglania lub (masowego?) programowania nowych układów.
